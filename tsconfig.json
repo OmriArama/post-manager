@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "es6",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "sourceRoot": "/",
+        "outDir": "root",
+        "baseUrl": ".",
+        "paths": {
+            "*": ["node_modules/*"]
+        }
+    },
+    "include": [
+        "./**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
