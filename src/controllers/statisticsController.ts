@@ -15,7 +15,6 @@ export default class StatisticsController {
             res.status(200).json(topTenCreators);
             next();
         }catch(err){
-            console.log(err)
             res.status(500).json("Failed to retrieve top ten creators");
         }
     }
